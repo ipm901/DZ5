@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Домашнее задание 5</title>
+    <style>
+        h1{
+            text-align: center;
+            color: rgb(98, 168, 233);
+        }
+        .positioned {
+  position: static;
+  background: yellow;
+}
+.visible {
+  visibility: visible;
+}
+
+.not-visible {
+  visibility: hidden;
+}
+.p1 {
+  width: 60em;
+  height: 6em;
+  border: dotted;
+  overflow: visible; /* содержимое не обрезается */
+}
+    </style>
+</head>
+<body>
+    <h1>Домашнее Задание 5</h1>
+<ul>
+    <li><p class="positioned"><a style="color:blue;" href="https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Positioning" target=_blank>Позиционирование</a> - позволяет вам изымать элементы из нормального потока макета документа и заставить их вести 
+        себя по-другому;</li>
+        <li>
+            <p class="visible"><a style="color:blue;" href="https://developer.mozilla.org/ru/docs/Web/CSS/visibility" target=_blank>Visibility</a> - Это свойство которое скрывает или показывает элемент без изменения разметки документа. Также скрывает строки и столбцы table;</p>
+            <p class="visible">Первый параграф виден.</p>
+    <p class="not-visible">Второй параграф не виден.</p>
+    <p class="visible">
+  Третий параграф также виден. Заметь, второй параграф занимает место.
+    </p>
+        </li> 
+        <li class="p1"><p class=""><a style="color:blue;" href="https://developer.mozilla.org/ru/docs/Web/CSS/overflow" target=_blank>Overflow</a> - это свойство которое определяет, необходимо ли для переполненного блочного элемента содержимое обрезать, предоставить полосы прокрутки или просто отобразить.;</p></li>
+        
+
+</ul>
+</body>
+</html>
